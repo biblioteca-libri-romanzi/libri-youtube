@@ -1,0 +1,6 @@
+language: c
+//provare questo file insieme agli altri tre per poi tornare ad editare quest'ultimo un'altra volta.
+sudo: not-required
+install: false
+env:
+  - M25_DEPS="menhir sedlex" BUILD_CMD="make test"
